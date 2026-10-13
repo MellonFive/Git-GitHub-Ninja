@@ -2,6 +2,8 @@ link: udemy.com/course/git-e-github-ninja/
 
 # Curso git e github ninja
 
+# Seção 1
+
 ## Introdução
 
 `git --version` -> Mostra a versão do git
@@ -61,6 +63,8 @@ Esses comandos, sao comandos básicos do git. Pratique bastante.
 
 `git rm` -> Remove o arquivo da árvore no diretório do git.
 
+# Seção 2
+
 ## Adicionar arquivos
 
 `git add --all ou git add -A` -> Todas as ações que estiver no nosso working directory, ele vai adicionar para a árvore do git. Se tiver arquivos novos, modificados ou deletados, todos serão adicionados.
@@ -111,6 +115,8 @@ Posso juntar os dois parâmetros se quiser para ver o git log: `git log --pretty
 `git log -p -3` -> Mostra a alteração que foi feita nos três últimos commits.
 Não preciso ver todos os commits. Posso colocar números se necessário.
 
+# Seção 3
+
 ## git branch(Ramificação)
 
 `git branch` -> Mostra a lista que tenho de branch no meu projeto.
@@ -135,9 +141,9 @@ Reforçando: Cada branch tem um ambiente separado de produção.
 *É sempre importante nunca trabalhar na branch principal(master ou main).*
 
 Mesmo trabalhando com várias pessoas ou sozinho, é interessante eu manter essa separação das branchs e fazer com que cada branch seja uma feature que vou adicionando ao longo do projeto.
-Assim consigo manter a branch master com o conteúdo mais atualizado possível.
+Assim consigo manter a branch main com o conteúdo mais atualizado possível.
 
-*A branch master é a branch principal do meu projeto.*
+*A branch main é a branch principal do meu projeto.*
 
 Crie uma branch para desenvolvimento antes de colocar tudo na branch master.
 
